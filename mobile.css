@@ -1,0 +1,118 @@
+/* 移动端特定样式 */
+@media (max-width: 768px) {
+    /* 调整登录界面 */
+    .auth-container {
+        margin: 0;
+        border-radius: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* 调整主菜单 */
+    #main-menu {
+        margin: 0;
+        border-radius: 0;
+        height: 100vh;
+        overflow-y: auto;
+        padding: 1.5rem;
+    }
+    
+    .menu-header {
+        flex-direction: column;
+    }
+    
+    .high-score {
+        margin-top: 1rem;
+        align-self: center;
+    }
+    
+    /* 调整游戏HUD */
+    .hud-item {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .hud-icon {
+        font-size: 0.9rem;
+    }
+    
+    /* 调整游戏结束菜单 */
+    .game-over-content {
+        padding: 1.5rem;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+    }
+    
+    /* 调整控制按钮大小和间距 */
+    #mobile-controls {
+        bottom: 1rem;
+    }
+    
+    .controls-row {
+        justify-content: space-around;
+    }
+    
+    .control-btn {
+        width: 70px;
+        height: 70px;
+        margin: 0 0.5rem;
+    }
+}
+
+/* 小屏幕手机优化 */
+@media (max-width: 400px) {
+    .auth-container {
+        padding: 1rem;
+    }
+    
+    .logo-text {
+        font-size: 1.2rem;
+    }
+    
+    .logo-subtext {
+        font-size: 0.8rem;
+    }
+    
+    .auth-input {
+        padding: 0.8rem;
+    }
+    
+    .auth-btn {
+        padding: 0.8rem;
+    }
+    
+    .user-avatar {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .user-details h3 {
+        font-size: 1.2rem;
+    }
+    
+    .stat-item {
+        font-size: 0.9rem;
+    }
+    
+    .high-score {
+        min-width: 100px;
+    }
+    
+    .score-value {
+        font-size: 1.2rem;
+    }
+    
+    .control-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+    
+    .btn-label {
+        font-size: 0.6rem;
+    }
+}
